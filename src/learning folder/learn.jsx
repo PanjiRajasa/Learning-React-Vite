@@ -1,4 +1,4 @@
-export default function Learn() {
+export function Learn() {
     class Universe {
         constructor(nama) {
           this.name = nama
@@ -531,4 +531,32 @@ export function Challenge6() {
   // console.log(electronicsSummary);
 }
 
-//Challenge 7
+//JSX chapter
+export const Opening = (
+  <>
+    <h1>This is a opening title!</h1>
+    <p><b>Welcome to the JSX chapter!</b></p>
+  </>
+);
+
+export function PropsExample({name = "Panji"}) {
+  return (
+    <>
+      <ul>
+        <li>Hello sir {name}!</li>
+      </ul>
+    </>
+  );
+} 
+
+export function NestedComponents({name, alias}) {
+  return (
+    <>
+      <div>
+        <h2>{alias} private browser.</h2>
+        <PropsExample name={name}/>
+      </div>
+    </>
+  )
+}
+
