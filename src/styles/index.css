@@ -1,0 +1,11 @@
+* {
+    background-color: bisque;
+}
+
+.imageEx {
+    margin-top: 20px;
+}
+
+.imageEx img {
+    border-radius: 50px;
+}
