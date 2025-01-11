@@ -21,6 +21,11 @@ import Conditional from "./learning folder/conditional/Conditional.JSX";
 import ConditionalRender from "./learning folder/conditional/ConditionalRendering";
 import ShoppingList from "./learning folder/conditional/ShoppingList";
 import Count from "./learning folder/useState/Counter";
+import DoubleStateButton from "./learning folder/useState/ShareState";
+import Game from "./learning folder/TicTacToe/TicTacToe";
+
+// new way of thinking
+import SimpleStarting from "./learning folder/newWayOfThinking/starting";
 
 function App() {
   {/*
@@ -62,6 +67,15 @@ function App() {
 
       {/* Counter button */}
       <Count/>
+
+      {/* Double state button */}
+      <DoubleStateButton/>
+
+      {/* Tic Tac Toe game */}
+      <Game/>
+
+      {/* New way of thinking */}
+      <SimpleStarting/>
     </div>
   );
 };
