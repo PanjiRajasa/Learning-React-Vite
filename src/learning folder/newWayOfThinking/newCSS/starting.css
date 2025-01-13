@@ -2,3 +2,12 @@
     display: flex;
     gap: 20px;
 }
+
+.getStartedC {
+    margin-top: 1rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 90px;
+}
