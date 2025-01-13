@@ -26,6 +26,9 @@ import Game from "./learning folder/TicTacToe/TicTacToe";
 
 // new way of thinking
 import SimpleStarting from "./learning folder/newWayOfThinking/starting";
+import GetStarted2 from "./learning folder/newWayOfThinking/StartingPart2";
+import MiniCard from "./learning folder/newWayOfThinking/nested/NestedComponent";
+import SimpleCondition from "./learning folder/newWayOfThinking/conditionalRendering2/SimpleCondition";
 
 function App() {
   {/*
@@ -76,6 +79,15 @@ function App() {
 
       {/* New way of thinking */}
       <SimpleStarting/>
+
+      {/* New 2 */}
+      <GetStarted2 />
+
+      {/* Nested component */}
+      <MiniCard />
+
+      {/* Simple Conditional */}
+      <SimpleCondition/>
     </div>
   );
 };
