@@ -29,6 +29,11 @@ import SimpleStarting from "./learning folder/newWayOfThinking/starting";
 import GetStarted2 from "./learning folder/newWayOfThinking/StartingPart2";
 import MiniCard from "./learning folder/newWayOfThinking/nested/NestedComponent";
 import SimpleCondition from "./learning folder/newWayOfThinking/conditionalRendering2/SimpleCondition";
+import RenderList from "./learning folder/rendering list/List";
+import FilteredList from "./learning folder/rendering list/FilterL";
+import Recipe from "./learning folder/newWayOfThinking/RenderListChallenge/Recipe";
+import SimpleRecipe from "./learning folder/newWayOfThinking/RenderListChallenge/SimplerRecipe";
+import RenderClock from "./learning folder/live clock/renderClock";
 
 function App() {
   {/*
@@ -88,6 +93,21 @@ function App() {
 
       {/* Simple Conditional */}
       <SimpleCondition/>
+
+      {/* Render list */}
+      <RenderList/>
+
+      {/* Filtered List */}
+      <FilteredList/>
+
+      {/* Recipe use List rendering */}
+      <Recipe />
+
+      {/* Complex but simple Recipe */}
+      <SimpleRecipe/>
+
+      {/* Live clock */}
+      <RenderClock />
     </div>
   );
 };
