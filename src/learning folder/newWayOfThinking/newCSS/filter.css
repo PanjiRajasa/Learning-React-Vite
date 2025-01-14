@@ -1,0 +1,15 @@
+ul.filter-ul {
+    padding-inline-start: 20px;
+}
+
+ul.filter-ul { list-style-type: none; padding: 0px 10px; }
+
+li.filter-ul { 
+  margin-bottom: 10px; 
+  display: grid; 
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+img.filteredIMG { width: 100px; height: 100px; border-radius: 50%; }
