@@ -34,6 +34,9 @@ import FilteredList from "./learning folder/rendering list/FilterL";
 import Recipe from "./learning folder/newWayOfThinking/RenderListChallenge/Recipe";
 import SimpleRecipe from "./learning folder/newWayOfThinking/RenderListChallenge/SimplerRecipe";
 import RenderClock from "./learning folder/live clock/renderClock";
+import QuoteDisplay from "./learning folder/quote of the day/QuoteDisplay";
+import FancyText from "./learning folder/quote of the day/GenerateQuote";
+import Copyright from "./learning folder/quote of the day/CopyRight";
 
 function App() {
   {/*
@@ -108,6 +111,12 @@ function App() {
 
       {/* Live clock */}
       <RenderClock />
+
+      {/* Qutes Generator */}
+      <FancyText title text="Your Quote of the Day"/>
+      <QuoteDisplay>
+        <Copyright year={2025}/>
+      </QuoteDisplay>
     </div>
   );
 };
