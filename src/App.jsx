@@ -37,6 +37,7 @@ import RenderClock from "./learning folder/live clock/renderClock";
 import QuoteDisplay from "./learning folder/quote of the day/QuoteDisplay";
 import FancyText from "./learning folder/quote of the day/GenerateQuote";
 import Copyright from "./learning folder/quote of the day/CopyRight";
+import BasicUseState from "./learning folder/useState Part 2/BasicUseState";
 
 function App() {
   {/*
@@ -117,6 +118,9 @@ function App() {
       <QuoteDisplay>
         <Copyright year={2025}/>
       </QuoteDisplay>
+
+      {/* Basic UseState */}
+      <BasicUseState/>
     </div>
   );
 };
