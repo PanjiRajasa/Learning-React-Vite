@@ -38,6 +38,7 @@ import QuoteDisplay from "./learning folder/quote of the day/QuoteDisplay";
 import FancyText from "./learning folder/quote of the day/GenerateQuote";
 import Copyright from "./learning folder/quote of the day/CopyRight";
 import BasicUseState from "./learning folder/useState Part 2/BasicUseState";
+import BasicAxios from "./learning folder/axios learn/BasicAxios";
 
 function App() {
   {/*
@@ -121,6 +122,9 @@ function App() {
 
       {/* Basic UseState */}
       <BasicUseState/>
+
+      {/* Learn REST API Axios */}
+      <BasicAxios/>
     </div>
   );
 };
