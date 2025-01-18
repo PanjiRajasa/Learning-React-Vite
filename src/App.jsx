@@ -39,6 +39,7 @@ import FancyText from "./learning folder/quote of the day/GenerateQuote";
 import Copyright from "./learning folder/quote of the day/CopyRight";
 import BasicUseState from "./learning folder/useState Part 2/BasicUseState";
 import BasicAxios from "./learning folder/axios learn/BasicAxios";
+import LivePointer from "./learning folder/liveMousePointer/LivePointer";
 
 function App() {
   {/*
@@ -125,6 +126,9 @@ function App() {
 
       {/* Learn REST API Axios */}
       <BasicAxios/>
+
+      {/* Circle pointer that moves follow user's mouse cursor movement */}
+      <LivePointer/>
     </div>
   );
 };
