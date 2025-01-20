@@ -40,6 +40,10 @@ import Copyright from "./learning folder/quote of the day/CopyRight";
 import BasicUseState from "./learning folder/useState Part 2/BasicUseState";
 import BasicAxios from "./learning folder/axios learn/BasicAxios";
 import LivePointer from "./learning folder/liveMousePointer/LivePointer";
+import SingleEventHandler from "./learning folder/single event handler function/SingleEventHandler";
+import NestedObjectChanging from "./learning folder/single event handler function/NestedObject";
+import ImmerExample from "./learning folder/single event handler function/ImmerExample";
+import DeletingAnArrayItem from "./learning folder/manipule arrays inside useState/DeletingAnArrayItem";
 
 function App() {
   {/*
@@ -128,7 +132,19 @@ function App() {
       <BasicAxios/>
 
       {/* Circle pointer that moves follow user's mouse cursor movement */}
-      <LivePointer/>
+      {/* <LivePointer/> */}
+
+      {/* Single event handler function */}
+      <SingleEventHandler/>
+
+      {/* Nested object event handling */}
+      <NestedObjectChanging/>
+
+      {/* Learn how to use Immer  */}
+      <ImmerExample/>
+
+      {/* How to delete an array item */}
+      <DeletingAnArrayItem/>
     </div>
   );
 };
