@@ -44,6 +44,8 @@ import SingleEventHandler from "./learning folder/single event handler function/
 import NestedObjectChanging from "./learning folder/single event handler function/NestedObject";
 import ImmerExample from "./learning folder/single event handler function/ImmerExample";
 import DeletingAnArrayItem from "./learning folder/manipule arrays inside useState/DeletingAnArrayItem";
+import AddArray from "./learning folder/new array update/AddArray";
+import TaskManager from "./learning folder/new array update/TaskManager";
 
 function App() {
   {/*
@@ -145,6 +147,10 @@ function App() {
 
       {/* How to delete an array item */}
       <DeletingAnArrayItem/>
+
+      {/* Update the array inside the state variable */}
+      <AddArray/>
+      <TaskManager/>
     </div>
   );
 };
