@@ -46,6 +46,9 @@ import ImmerExample from "./learning folder/single event handler function/ImmerE
 import DeletingAnArrayItem from "./learning folder/manipule arrays inside useState/DeletingAnArrayItem";
 import AddArray from "./learning folder/new array update/AddArray";
 import TaskManager from "./learning folder/new array update/TaskManager";
+import ShapeEditor from "./learning folder/newWayUpdateObjectArray/transformArray";
+import CounterList from "./learning folder/newWayUpdateObjectArray/replacingArray";
+import InsertIntoAnArray from "./learning folder/newWayUpdateObjectArray/InsertIntoAnArray";
 
 function App() {
   {/*
@@ -151,6 +154,19 @@ function App() {
       {/* Update the array inside the state variable */}
       <AddArray/>
       <TaskManager/>
+
+      {/* Transforming an array */}
+      <ShapeEditor/>
+
+      {/* Replacing items in an array using map() */}
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <CounterList/>
+
+      {/* Insert Into An Array */}
+      <InsertIntoAnArray/>
     </div>
   );
 };
