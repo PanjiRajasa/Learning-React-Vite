@@ -49,6 +49,8 @@ import TaskManager from "./learning folder/new array update/TaskManager";
 import ShapeEditor from "./learning folder/newWayUpdateObjectArray/transformArray";
 import CounterList from "./learning folder/newWayUpdateObjectArray/replacingArray";
 import InsertIntoAnArray from "./learning folder/newWayUpdateObjectArray/InsertIntoAnArray";
+import ReversingArray from "./learning folder/newWayUpdateObjectArray/reverseArray";
+import UpdateObjectInsideArray from "./learning folder/newWayUpdateObjectArray/UpdateObjectInsideArray";
 
 function App() {
   {/*
@@ -167,6 +169,12 @@ function App() {
 
       {/* Insert Into An Array */}
       <InsertIntoAnArray/>
+
+      {/* Reverse an Array without mutating it */}
+      <ReversingArray/>
+
+      {/* Updating objects inside array */}
+      <UpdateObjectInsideArray/>
     </div>
   );
 };
