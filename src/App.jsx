@@ -17,7 +17,7 @@ import ProductCard from "./learning folder/simpleElectronicsChallenge/ProductCar
 // start from here
 import AlertWhenClicked from "./learning folder/displayAlert/alertJSX";
 import DynamicAlert from "./learning folder/displayAlert/DynamicAlert";
-import Conditional from "./learning folder/conditional/Conditional.JSX";
+import Conditional from "./learning folder/conditional/Conditional.jsx";
 import ConditionalRender from "./learning folder/conditional/ConditionalRendering";
 import ShoppingList from "./learning folder/conditional/ShoppingList";
 import Count from "./learning folder/useState/Counter";
@@ -51,6 +51,7 @@ import CounterList from "./learning folder/newWayUpdateObjectArray/replacingArra
 import InsertIntoAnArray from "./learning folder/newWayUpdateObjectArray/InsertIntoAnArray";
 import ReversingArray from "./learning folder/newWayUpdateObjectArray/reverseArray";
 import UpdateObjectInsideArray from "./learning folder/newWayUpdateObjectArray/UpdateObjectInsideArray";
+import Picture from "./learning folder/managing-state/booleanSwitchingEx.jsx";
 
 function App() {
   {/*
@@ -70,6 +71,9 @@ function App() {
 
   return (
     <div>
+      {/* Transforming an array */}
+      <ShapeEditor/>
+
       {/*  
         <h1>Product Catalog</h1>
         <CategoryFilter onCategoryChange={setSelectedCategory} />
@@ -83,7 +87,7 @@ function App() {
       <DynamicAlert/>
 
       {/* JSX conditional */}
-      {/* <Conditional isGoal={true} /> */}
+      <Conditional isGoal={true} />
 
       {/* Learn from 0 again */}
       <InlineComponent/>
@@ -157,14 +161,9 @@ function App() {
       <AddArray/>
       <TaskManager/>
 
-      {/* Transforming an array */}
-      <ShapeEditor/>
+      
 
       {/* Replacing items in an array using map() */}
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <CounterList/>
 
       {/* Insert Into An Array */}
@@ -175,6 +174,9 @@ function App() {
 
       {/* Updating objects inside array */}
       <UpdateObjectInsideArray/>
+
+      {/* Boolean Switching */}
+      <Picture/>
     </div>
   );
 };
