@@ -112,3 +112,6 @@
   .picture--active {
     border: 5px solid #a6b5ff;
   }
+
+.labelEditProfile { display: block; margin-bottom: 20px; }
+.formEditProfile {margin-top: 2rem;}

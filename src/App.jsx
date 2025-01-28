@@ -52,6 +52,7 @@ import InsertIntoAnArray from "./learning folder/newWayUpdateObjectArray/InsertI
 import ReversingArray from "./learning folder/newWayUpdateObjectArray/reverseArray";
 import UpdateObjectInsideArray from "./learning folder/newWayUpdateObjectArray/UpdateObjectInsideArray";
 import Picture from "./learning folder/managing-state/booleanSwitchingEx.jsx";
+import EditProfile from "./learning folder/managing-state/ProfileEditor.jsx";
 
 function App() {
   {/*
@@ -177,6 +178,9 @@ function App() {
 
       {/* Boolean Switching */}
       <Picture/>
+
+      {/* Profile Editor */}
+      <EditProfile/>
     </div>
   );
 };
