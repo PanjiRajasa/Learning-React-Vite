@@ -53,6 +53,8 @@ import ReversingArray from "./learning folder/newWayUpdateObjectArray/reverseArr
 import UpdateObjectInsideArray from "./learning folder/newWayUpdateObjectArray/UpdateObjectInsideArray";
 import Picture from "./learning folder/managing-state/booleanSwitchingEx.jsx";
 import EditProfile from "./learning folder/managing-state/ProfileEditor.jsx";
+import ChangeableClock from "./learning folder/managing-state/RenderClock2.jsx";
+import TravelPlan from "./learning folder/managing-state/TravelPlan.jsx";
 
 function App() {
   {/*
@@ -181,6 +183,14 @@ function App() {
 
       {/* Profile Editor */}
       <EditProfile/>
+
+      {/* Live clock with changeable color */}
+      <ChangeableClock/>
+
+      {/* Mini Travel Plan */}
+      <TravelPlan/>
+
+      
     </div>
   );
 };
